@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+      .styletable{
+          width: 70%;
+          border-collapse: collapse;
+          border-radius: 6px;
+          margin: 100px auto;
+          box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+          overflow: hidden;
+
+      }
+      .styletable th, 
+      .styletable td{
+          padding: 10px 15px;
+          text-align: left;
+      }
+      .styletable th{
+            background-color: aqua;
+      }
+      .styletable tr:nth-of-type(even){
+          background-color:rgba(193, 183, 176, 0.514);
+      }
+    </style>
+</head>
+<body>
+     <table class="styletable">
+        <tbody>
+            <header>
+            <tr id="row0">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Age</th>
+               
+            </tr>
+            </header>
+            <tbody>
+            <tr id ="row1">
+                <td>JOHN</td>
+                <td>DOE</td>
+                <td>john.doe@example.com</td>
+                <td>30</td>
+            </tr>
+            <tr id="row2">
+                <td>JANE</td>
+                <td>SMITH</td>
+                <td>jane.smith@example.com</td>
+                <td>25</td>
+            </tr>
+            <tr id="row3">
+                <td>JANE</td>
+                <td>SMITH</td>
+                <td>jane.smith@example.com</td>
+                <td>25</td>
+            </tr>
+             <tr id="row4">
+                <td>JOHN</td>
+                <td>DOE</td>
+                <td>john.doe@example.com</td>
+                <td>30</td>
+            </tr>
+            </tbody>
+        </tbody>
+    </table>
+</body>
+</html>
